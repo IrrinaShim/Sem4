@@ -3,7 +3,7 @@
 #include <cstring>
 #include <stdlib.h>
 #include <string> 
-#include "GC.h"
+#include "GC1.h"
 using namespace std;
 
 int main(){
