@@ -1,0 +1,20 @@
+#include <iostream>
+#include <fstream>
+#include <cstring>
+#include <stdlib.h>
+#include <string> 
+#include "GC.h"
+using namespace std;
+
+int main(){
+    string S[36] = {"41.txt", "201.txt", "203.txt", "205.txt", "207.txt", "209.txt", "501.txt", 
+    "503.txt", "505.txt", "507.txt", "509.txt", "701.txt", "703.txt", "705.txt", 
+    "707.txt", "709.txt", "1001.txt", "1003.txt", "1005.txt", "1007.txt", "1009.txt",
+    "2501.txt", "2503.txt", "2505.txt", "2507.txt", "2509.txt", "5001.txt", "5003.txt",
+    "5005.txt", "5007.txt", "5009.txt", "10001.txt", "10003.txt", "10005.txt", "10007.txt", "10009.txt"};
+    for (int i=0; i<36; i++){
+        cout<<S[i]<<"  "<< "\t";
+        graph_coloring(S[i]);
+    }
+    return 0;
+}
