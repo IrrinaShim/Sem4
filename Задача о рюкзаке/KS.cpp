@@ -113,16 +113,16 @@ void solution(string name){
 
 int main(){
 
-/*    string S[18] = {"ks_4_0","ks_19_0","ks_30_0", "ks_40_0","ks_45_0", "ks_50_0","ks_50_1",
+    string S[18] = {"ks_4_0","ks_19_0","ks_30_0", "ks_40_0","ks_45_0", "ks_50_0","ks_50_1",
     "ks_60_0","ks_100_0","ks_100_1","ks_100_2","ks_200_0","ks_200_1","ks_300_0","ks_400_0","ks_500_0","ks_1000_0","ks_10000_0"};
 
     for (int i=14; i<18; i++){
        cout<<S[i]<<"  "<< "\t";
        solution(S[i]);
-    }*/
+    }
 
-    string name = "ks_19_0";
-    solution(name);
+//    string name = "ks_19_0";
+//    solution(name);
 
     return 0;
 }
