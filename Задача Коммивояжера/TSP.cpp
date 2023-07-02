@@ -104,7 +104,9 @@ void solution(string name){
     int way[N];
     way[0] = 0;
     ver[0].f = 1;
+	
     double s = 0;
+    //int s; //при прогоне через тестытип s был int, за счет округления результаты немного другие 
 
     for (int n = 1; n < N; n++){
         int k = 0;
